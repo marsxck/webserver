@@ -9,7 +9,9 @@ def handle_request(conn):
         if not data:
             conn.close()
             break
-        print("recv:",data)
+        f=open('/var/www/html/src2','wb+')
+        f.write(data)
+        f.close()
 def server(port):
     s=socket.socket()
     s.bind(('172.21.16.2',port))
