@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>E713_Project</title>
+    <link rel="stylesheet" href="/static/css/fuxiao_style.css">
+  </head>
+  <script> 
+		function show(){ 
+			var date = new Date(); //
+			var now = ""; 
+			now = date.getFullYear()+"/"; //
+			now = now + (date.getMonth()+1)+"/"; //
+			now = now + date.getDate()+"/"; 
+			now = now + date.getHours()+":"; 
+			now = now + date.getMinutes()+":"; 
+			now = now + date.getSeconds()+" "; 
+			document.getElementById("nowDiv").innerHTML = now; //
+			setTimeout("show()",1000); //
+		} 
+	</script> 
+  <body onload="show()">
+  <div id="header">
+  	<p id="usermessage">usermessage</p>
+  </div>
+  <div id="left" >
+  	
+  </div>
+  <div id="middle" align="center">
+  	<div id="heigh">
+  		<p id="heighmessage"><b>High<p>Pressure</p></b></p>
+  	</div>
+  	<div id="low">
+  		<p id="lowmessage"><b>Low<p>Pressure</p></b></p>
+  	</div>
+  	<div id="heartreat">
+  		<p id="heartreat"><b>HeartReat</b></p>
+  		
+  	</div>
+  	<div id="heigh_number">
+  		<p id="heighnumber"><b>105</b></p>
+  	</div>
+  	<div id="low_number">
+  		<p id="lownumber"><b>90</b></p>
+  	</div>
+  	<div id="heartreat_number">
+  		<p id="heartreatnumber"><b>60</b></p>
+  	</div>
+  	<div id="nowDiv" align="right">
+
+
+  	</div>
+  </div>
+  <div id="right">
+  	
+  </div>
+  <div id="buttom_left">
+  	
+  </div>
+  <div id="buttom_right">
+  	
+  	<button type="button">Out</button>
+  </div>
+ 
+
+
+  </body>
+</html>

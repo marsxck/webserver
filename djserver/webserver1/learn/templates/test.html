@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>E713_Project</title>
+    <link rel="stylesheet" href="/static/css/wangbo.css">
+  </head>
+  <script> 
+		function show(){ 
+			var date = new Date(); //
+			var now = ""; 
+			now = date.getFullYear()+"/"; //
+			now = now + (date.getMonth()+1)+"/"; //
+			now = now + date.getDate()+"/"; 
+			now = now + date.getHours()+":"; 
+			now = now + date.getMinutes()+":"; 
+			now = now + date.getSeconds()+" "; 
+			document.getElementById("nowDiv").innerHTML = now; //
+			setTimeout("show()",1000); //
+		} 
+	</script> 
+  <body onload="show()">
+  <div id="header">
+  	<p id="usermessage">usermessage</p>
+  </div>
+  <div id="left" >
+  	
+  </div>
+  <div id="middle" align="center">
+  	<div id="attention">
+  		<p id="attentionmessage"><b>Attention<p>Value</p></b></p>
+  	</div>
+  	<div id="meditation">
+  		<p id="meditationmessage"><b>Meditation<p>Value</p></b></p>
+  	</div>
+  	
+  	<div id="attention_number">
+  		<p id="attentionnumber"><b>105</b></p>
+  	</div>
+  	<div id="meditation_number">
+  		<p id="meditationnumber"><b>90</b></p>
+  	</div>
+  	
+  	<div id="nowDiv" align="right">
+
+
+  	</div>
+  </div>
+  <div id="right">
+  	
+  </div>
+  <div id="buttom_left">
+  	
+  </div>
+  <div id="buttom_right">
+  	
+  	<button type="button">Out</button>
+  </div>
+ 
+
+
+  </body>
+</html>

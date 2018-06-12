@@ -1,0 +1,127 @@
+
+* {
+	font-family: Times New Roman
+	}
+body {
+	margin:0;
+	padding:0;
+	background:url(../images/banner.jpg) no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	font-family: 'Muli', sans-serif;
+}
+
+#header {
+	//background: white;
+	color: white;
+	font-family: fantasyd;
+	font-size: 30px;
+	//width: 1440px;
+	//height:70px;
+	}
+
+#left {
+	//background: blue;
+	width: 135Px;
+	height:590Px;
+	float: left;
+	}
+#middle {
+	 padding : 1em;
+  border  : 1px solid white;
+	//background: yellow;
+	width: 1170Px;
+	height:590Px;
+	float: left;
+	}
+#right {
+	//background: blue;
+	width: 35Px;
+	height:590Px;
+	float: left;
+	}
+#buttom_left{
+	//background: red;
+	width: 1000px;
+	height:80px;
+	float: left;
+	}
+#buttom_right {
+	//background: black;
+	width: 270px;
+	height:80px;
+	float: left;
+	}
+#heigh {
+	//background: white;
+	font-size: 70px;
+	line-height: 0.5;
+	width: 390Px;
+	height:295Px;
+	float: left;
+	}
+#low {
+	
+//background: white;
+font-size: 65px;
+line-height: 0.5;
+	width: 390Px;
+	height:295Px;
+	float: left;
+	}
+#heartreat {
+	
+	//background: green;
+	font-size:65px;
+	width: 390Px;
+	height:295Px;
+	float: left;
+	}
+#heigh_number {
+	
+	//background: green;
+	line-height: 0.5;
+	font-size: 70px;
+	width: 390Px;
+	height:225Px;
+	float: left;
+	}
+#low_number {
+	
+	//background: black;
+	line-height: 0.5;
+	font-size: 70px;
+	width: 390Px;
+	height:225Px;
+	float: left;
+	}
+#heartreat_number {
+	
+	//background: yellow;
+	line-height: 0.5;
+	font-size: 70px;
+	width: 390Px;
+	height:225Px;
+	float: left;
+	}
+#nowDiv{
+	color:white;
+	font-size: 30px;
+	}
+button {
+	line-height: 0.5;
+	font-size: 70px;
+    background-color: rgb(27,33,95);
+    #background:url(backimage.jpg) no-repeat;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
